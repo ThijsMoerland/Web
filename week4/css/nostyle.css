@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+header {
+    font-family:  "Courier New","Lucida Console";
+    font-size: 32px;
+    color: #FF2D00;
+}
+p{
+    font-family: "Cedarville";
+    font-size: 10vw;
+    color: rgba(0, 0,255);
+    font-variant: small-caps;
+}
