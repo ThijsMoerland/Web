@@ -1,0 +1,6 @@
+col:first-child{
+    background: #ff0;
+}
+col:nth-child(2n+1){
+    background: #ccc;
+}

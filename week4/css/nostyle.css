@@ -3,10 +3,17 @@ header {
     font-family:  "Courier New","Lucida Console";
     font-size: 32px;
     color: #FF2D00;
+    font-style: oblique;
 }
 p{
-    font-family: "Cedarville";
+    font-family: 'Cedarville Cursive', cursive;
     font-size: 10vw;
     color: rgba(0, 0,255);
     font-variant: small-caps;
+}
+footer{
+    font-family: "Ostisch sans master";
+    font-size: 1.6vw;
+    color: hsla(319, 100%, 52%, 1.00);
+    font-stretch: expanded;
 }
