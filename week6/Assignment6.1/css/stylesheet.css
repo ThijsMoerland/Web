@@ -1,0 +1,20 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+header nav {
+    background-color: #a5a5a5 ;
+}
+header nav h1 {
+    padding: 5px;
+    float: left;
+    background-color: #ff6e6e
+}
+header nav input{
+    float: right;
+    background-color:beige;
+    margin: 25px 0;
+}
+header nav ul {
+    background-color: blue;
+}
