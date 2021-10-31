@@ -49,7 +49,7 @@ nav ul li a {
 nav {
     display: flex;
     width: 100%;
-    background: blue;
+    background: #0000ff;
 }
 nav input {
     display: none;
@@ -65,7 +65,7 @@ nav label span {
     width: 20px;
     height: 5px;
     border-radius: 20%;
-    background: white;
+    background: #fff;
 }
 
 
@@ -115,6 +115,7 @@ video {
 #articles article section p {
     max-width: 50%;
     text-align: start;
+    font-family: 'Notable', sans-serif;
 }
 #articles article section a img {
     max-width: 100%;
@@ -147,9 +148,10 @@ body > footer {
     bottom: 0;
     right: 0;
     width: 30%;
+    z-index: 9999;
 }
-
-@media only screen and (max-width: 1050px) {
+/* tablet styling*/
+@media only screen and (max-width: 1180px) {
     #mainPage {
         display: block;
     }
@@ -169,8 +171,8 @@ body > footer {
     }
   }
   
-
-@media only screen and (max-width: 450px) {
+/* mobile styling */
+@media only screen and (max-width: 480px) {
     nav label {
         display: flex;
         position: fixed;

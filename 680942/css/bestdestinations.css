@@ -6,6 +6,7 @@
 
 body {
     background: beige;
+    font-family: "Arial","Helvetica","sans-serif";
 }
 
 #Logo {
@@ -84,6 +85,10 @@ nav label span {
 
 article{
     padding: 1em;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: 1em;
+    word-spacing: normal;
     border: 1px solid black;
 }
 
@@ -136,6 +141,7 @@ article{
     display: grid;
     grid-template-columns: repeat(5, [col-start] 1fr);
     gap: 20px;
+    font-family: 'Notable', sans-serif;
 }
 
 #aside-grid-container section:nth-child(1){
@@ -165,7 +171,7 @@ article{
     display: block;
     margin: 0 auto 1em;
 }
-#aside-grid-container section p:first-of-type {
+#aside-grid-container section figcaption {
     margin-bottom: 1em;
 } 
 
@@ -186,6 +192,7 @@ body > footer {
     bottom: 0;
     right: 0;
     width: 30%;
+    z-index: 9999;
 }
 
 /* tablet styling*/

@@ -45,13 +45,13 @@ nav ul li:hover {
     font-size: 1.05em;
 }
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 nav {
     display: flex;
     width: 100%;
-    background: blue;
+    background: #0000ff;
 }
 nav input {
     display: none;
@@ -67,7 +67,7 @@ nav label span {
     width: 20px;
     height: 5px;
     border-radius: 20%;
-    background: white;
+    background: #fff;
 }
 tr{
     text-align: center;
@@ -80,7 +80,7 @@ td, th {
 
 table{
     width: 80%;
-    border: 1px solid black;
+    border: 1px double black;
     float: left;
 }
 aside, table {
@@ -93,6 +93,7 @@ aside{
 }
 #mainpage header article{
     padding: 1em;
+    font-family: 'Notable', sans-serif;
 }
 #mainpage footer {
     text-align: start;
@@ -117,8 +118,9 @@ body > footer {
     bottom: 0;
     right: 0;
     width: 30%;
+    z-index: 9999;
 }
-
+/* tablet styling*/
 @media only screen and (max-width: 1050px) {
     aside img:nth-child(1){
         display: none;
@@ -146,7 +148,7 @@ body > footer {
         width: 100%;
     }
 }
-
+/* mobile styling */
 @media only screen and (max-width: 450px) {
     nav label {
         display: flex;
@@ -176,6 +178,12 @@ body > footer {
     }
     table tr td:nth-child(1){
         max-width: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; 
+    }
+    table tr td:nth-child(2){
+        max-width: 80px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; 
